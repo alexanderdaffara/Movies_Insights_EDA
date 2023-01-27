@@ -33,22 +33,32 @@ Utku Kale
 ## Results:
 ### - Insight 1: Spend More to earn more. Risk of loss is especially above $50 million in production budget.
 ![budget_v_profit](https://raw.githubusercontent.com/alexanderdaffara/dsc-phase-1-project-Alex-Utku/main/visualizations/budgetvProfit.png)
-    - We can see from this visualization that there is a positive correlation between production budget and profit. 
-    - We can also see around $ 50 million in budget there is a greatly reduced probability of a movie resulting in loss
+
+   - We can see from this visualization that there is a positive correlation between production budget and profit. 
+   - We can also see around $ 50 million in budget there is a greatly reduced probability of a movie resulting in loss
 
 ### - Insight 2: Choose from one of the top 5 profitable genres.
+![profit_by_genreCombination](https://raw.githubusercontent.com/alexanderdaffara/dsc-phase-1-project-Alex-Utku/main/visualizations/profitByGenre.png)
+
    - This visualization shows the average profit per genre and genre combination category.
    - We made the decision to include only genre combinations with at least 40 samples as to not allow genres with few samples dominate the profit average. This makes the distribution more representative of our population. 
    - Each genre bin represents a sample of movies containing at least that genre or genre combination. 
     - In example: "Adventure & Comedy", representing the highest average profit, contains all films that are both adventure and comedy, as well as films that are action, comedy and some other genre.
    - A key insight to be taken from this chart is genre upscaling. For example, if Microsoft feels comfortable making a successful comedy movie, we would recommend you make an adventure & comedy movie to almost double your expected profit
+   - Following is a comparison of the top genre combination against our first production budget vs. profit visualization:
+![budget_v_profit](https://raw.githubusercontent.com/alexanderdaffara/dsc-phase-1-project-Alex-Utku/main/visualizations/budgetvProfitWithGenre.png)
 
 ### - Insight 3: Choose an appropriate runtime length, given a choice of genre
+![runtime_distribution_per_top_genreCombinations](https://raw.githubusercontent.com/alexanderdaffara/dsc-phase-1-project-Alex-Utku/main/visualizations/runtime%20dist%20per%20genre%20(OG).png)
+
    - This visualization shows the distribution of movie runtime lengths for each of our top 5 genres
    - From this we can choose a runtime length that is appropriate for each genre since the distributions (except for 'Adventure') are all heavily skewed towards one clear choice.
    - Since we are choosing from proven profitable genres over the years, it is safe to assume that we want to emulate those common runtime choices.
 
 ### - Insight 4: Given a choice of actor in a movie's leading role, some genres are more profitable than others, depending on the actor's gender. Conversely, given a choice of genre, we can conclude a lead actor gender which is statistically more profitable.
+![profit_distribution_for_Male_lead_actors_by_top_genreCombinations](https://raw.githubusercontent.com/alexanderdaffara/dsc-phase-1-project-Alex-Utku/main/visualizations/MaleDistributionByProfitGenre.png)
+![profit_distribution_for_Female_lead_actors_by_top_genreCombinations](https://raw.githubusercontent.com/alexanderdaffara/dsc-phase-1-project-Alex-Utku/main/visualizations/FemaleDistributionByProfitGenre.png)
+
  - The Male distribution was sampled to have an equal sample population as the Female distribution, so we may compare them without the risk of mean inflation.
  - By analyzing the mean and bulge distribution of these probability density functions, we can make decisions such as:
     - If we have a specific female actress in mind, a Horror & Thriller is the most profitable choice
