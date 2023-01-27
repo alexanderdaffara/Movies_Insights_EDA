@@ -1,3 +1,4 @@
+![image from https://www.nytimes.com/2015/12/13/movies/best-movies-2015.html](https://static01.nyt.com/images/2015/12/13/movies/13BESTMOVIES/13BESTMOVIES-superJumbo-v3.jpg)
 # Exploratory Data Analysis for Microsoft Film Studios
 Authors: 
 Alexander Claudino Daffara
