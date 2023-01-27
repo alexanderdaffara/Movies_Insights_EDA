@@ -23,11 +23,14 @@ Utku Kale
 
 ## Data Understanding and Analysis
    The Datasets we used are from imdb, The Numbers and Kaggle
-    - IMDb data contains information about the movie GENRES and RUNTIME in minutes
+   
+   - IMDb data contains information about the movie GENRES and RUNTIME in minutes
        - 146k movies before data-cleaning for our analysis
-    - The Numbers contains information about PRODUCTION BUDGET and REVENUE for the films
+       
+   - The Numbers contains information about PRODUCTION BUDGET and REVENUE for the films
        - ~5.5k movies before data-cleaning for our analysis
-    - Kaggle's "The Movie Dataset" contains information about cast and ACTOR GENDER
+       
+   - Kaggle's "The Movie Dataset" contains information about cast and ACTOR GENDER
        - ~45k movies before data-cleaning for our analysis
 
 ## Results:
