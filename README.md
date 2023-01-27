@@ -34,7 +34,7 @@ Utku Kale
        - ~45k movies before data-cleaning for our analysis
 
 ## Results:
-### - Insight 1: Spend More to earn more. Risk of loss is especially above $50 million in production budget.
+### - Insight 1: Spend More to earn more. Risk of loss is reduced especially above $50 million in production budget.
 ![budget_v_profit](https://raw.githubusercontent.com/alexanderdaffara/dsc-phase-1-project-Alex-Utku/main/visualizations/budgetvProfit.png)
 
    We can see from this visualization that there is a positive correlation between production budget and profit. We can also see around $ 50 million in budget there is a greatly reduced probability of a movie resulting in loss.
