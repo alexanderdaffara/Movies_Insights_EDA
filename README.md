@@ -94,6 +94,9 @@ TL;DR. These are the data driven suggestions we point out:
  With our data analysis we have suggested actionable insights to ensure success for Microsft Studio's launch.
  
 ## Future Improvements
+
  - Adjust profit values with inflation over the years
+ 
  - Work with streaming service dataset to incorporate valuable recent data
+ 
  - Require more data for analysis, so we may have sample sizes that better represent the population, especially for our gender analysis, which is a highly discussed topic and there is high demand for accurate data
